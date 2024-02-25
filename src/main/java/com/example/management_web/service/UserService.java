@@ -75,16 +75,17 @@ public class UserService {
     }
 
 
-//    public User register(User user) {
-//        User dbUser = userMapper.selectByUsername(user.getUsername());
-//        if (dbUser != null) {
-//            // 抛出一个自定义的异常
-//            throw new ServiceException("用户名已存在");
-//        }
+    public User register(User user) {
+        User dbUser = userMapper.selectByUsername(user);
+        if (dbUser != null) {
+            // 抛出一个自定义的异常
+            throw new ServiceException("用户名已存在");
+        }
 //        user.setUsername(user.getUsername());
-//        userMapper.insert(user);
-//        return user;
-//    }
+//        user.setPassword(user.getPassword());
+        userMapper.insert(user);
+        return user;
+    }
 
     public User login(User user) {
         // 根据用户名查询数据库的用户信息

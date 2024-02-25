@@ -30,16 +30,16 @@ public class WebController {
         return Result.success(user);
     }
 
-//    @PostMapping("/register")
-//    public Result register(@RequestBody User user) {
-//        if (StrUtil.isBlank(user.getUsername()) || StrUtil.isBlank(user.getPassword())) {
-//            return Result.error("数据输入不合法");
-//        }
-//        if (user.getUsername().length() > 10 || user.getPassword().length() > 20) {
-//            return Result.error("数据输入不合法");
-//        }
-//        user = userService.register(user);
-//        return Result.success(user);
-//    }
+    @PostMapping("/register")
+    public Result register(@RequestBody User user) {
+        if (StrUtil.isBlank(user.getUsername()) || StrUtil.isBlank(user.getPassword())) {
+            return Result.error("数据输入不合法");
+        }
+        if (user.getUsername().length() > 10 || user.getPassword().length() > 20) {
+            return Result.error("数据输入不合法");
+        }
+        user = userService.register(user);
+        return Result.success(user);
+    }
 
 }

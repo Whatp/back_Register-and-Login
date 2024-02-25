@@ -12,7 +12,7 @@ public interface UserMapper {
      *
      * @param user
      */
-    @Insert("insert into web_system.user(name, password, course, gender) values (#{name},#{password},#{course},#{gender})")
+    @Insert("insert into web_system.user(username,name, password, course, gender) values (#{username},#{name},#{password},#{course},#{gender})")
     int insert(User user);
 
     /**

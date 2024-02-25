@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="262d0c9b-b035-44a8-9221-51e69489759f" name="Changes" comment="">
+    <list default="true" id="262d0c9b-b035-44a8-9221-51e69489759f" name="Changes" comment="修改了CoachService.java">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/08032d92-1fd3-4947-a3b9-aa8ed0b8213a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08032d92-1fd3-4947-a3b9-aa8ed0b8213a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management_web/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management_web/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management_web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management_web/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,31 +39,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Others/SelfLearning/JavaLearning/前后端分离管理系统/management_web",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "e76e7f115dc9ccbe6cafe877b3d79338",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Others/SelfLearning/JavaLearning/前后端分离管理系统/management_web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e76e7f115dc9ccbe6cafe877b3d79338&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Others\SelfLearning\JavaLearning\Demo\management_web\src\main\java\com\example\management_web\pojo" />
@@ -108,6 +111,7 @@
       <workItem from="1708841507360" duration="1327000" />
       <workItem from="1708843040819" duration="903000" />
       <workItem from="1708859581052" duration="745000" />
+      <workItem from="1708861365449" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="删除了DTO">
       <created>1708860184871</created>
@@ -123,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708860283200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改了CoachService.java">
+      <created>1708861470843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708861470843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,9 +167,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除了DTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除了DTO" />
+    <MESSAGE value="修改了CoachService.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了CoachService.java" />
   </component>
 </project>
