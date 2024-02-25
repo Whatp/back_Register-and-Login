@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="262d0c9b-b035-44a8-9221-51e69489759f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2bq006MbnTSrUvcLRqFObEHd8Mw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Others/SelfLearning/JavaLearning/前后端分离管理系统/management_web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "e76e7f115dc9ccbe6cafe877b3d79338",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\SelfLearning\JavaLearning\Demo\management_web\src\main\java\com\example\management_web\pojo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ManagementWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="management_web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.management_web.ManagementWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="262d0c9b-b035-44a8-9221-51e69489759f" name="Changes" comment="" />
+      <created>1706927076918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706927076918</updated>
+      <workItem from="1706927078053" duration="4702000" />
+      <workItem from="1707037762288" duration="1005000" />
+      <workItem from="1707039322494" duration="3235000" />
+      <workItem from="1707060140305" duration="6229000" />
+      <workItem from="1707101061810" duration="2432000" />
+      <workItem from="1707105486899" duration="1403000" />
+      <workItem from="1707116632753" duration="7099000" />
+      <workItem from="1707128420978" duration="8546000" />
+      <workItem from="1707224402640" duration="11869000" />
+      <workItem from="1707271044555" duration="20079000" />
+      <workItem from="1707360907579" duration="5932000" />
+      <workItem from="1707390017473" duration="24000" />
+      <workItem from="1707391332316" duration="119000" />
+      <workItem from="1707392086590" duration="18000" />
+      <workItem from="1708516484175" duration="4369000" />
+      <workItem from="1708579277962" duration="34000" />
+      <workItem from="1708691861164" duration="2375000" />
+      <workItem from="1708752187320" duration="627000" />
+      <workItem from="1708754480811" duration="137000" />
+      <workItem from="1708778139429" duration="5304000" />
+      <workItem from="1708786212531" duration="1287000" />
+      <workItem from="1708836799628" duration="3357000" />
+      <workItem from="1708841507360" duration="1327000" />
+      <workItem from="1708843040819" duration="903000" />
+      <workItem from="1708859581052" duration="318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
